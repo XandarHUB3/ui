@@ -1540,7 +1540,7 @@ end
 _G.Color = Color3.fromRGB(68, 187, 165)
 
 
-local win = library:Window("Razer",[[Hub]],[[Script],"134095939534051",Enum.KeyCode.RightControl)
+local win = library:Window("Razer",[[Hub]],[[],"134095939534051",Enum.KeyCode.RightControl)
 local MainTab = win:Tab("Main1",[[7040391851]])
 local CoTab = win:Tab("Main2",[[]])
 
