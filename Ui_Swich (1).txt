@@ -1,9 +1,7 @@
 
-
-
 repeat wait(1) until game:IsLoaded()
 
-
+do
 	local ui = game.CoreGui:FindFirstChild("RippleHUBLIB")
 	if ui then
 		ui:Destroy()
