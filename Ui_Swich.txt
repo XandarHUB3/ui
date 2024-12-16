@@ -1,5 +1,5 @@
 for i,v in pairs(game.CoreGui:GetChildren()) do
-    if v.Name == "LynXGui" then
+    if v.Name == "Razer Hub" then
         v:Destroy()
     end
 end
