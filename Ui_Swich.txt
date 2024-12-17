@@ -1020,7 +1020,7 @@ end)
 			DropImage.Position = UDim2.new(0, 445, 0, 6)
 			DropImage.Rotation = -90
 			DropImage.Size = UDim2.new(0, 20, 0, 20)
-			DropImage.Image = "rbxassetid://6031090990"
+			DropImage.Image = "rbxassetid://82496531647577"
 			
 			DropButton.Name = "DropButton"
 			DropButton.Parent = Dropdown
@@ -1540,7 +1540,7 @@ end
 _G.Color = Color3.fromRGB(68, 187, 165)
 
 
-local win = library:Window("Swich",[[Hub]],[[Ver:1.3.2]],"134095939534051",Enum.KeyCode.RightControl)
+local win = library:Window("Razer",[[Hub]],[[Ver:1.3.2]],"134095939534051",Enum.KeyCode.RightControl)
 local MainTab = win:Tab("Main1",[[7040391851]])
 local CoTab = win:Tab("Main2",[[]])
 
