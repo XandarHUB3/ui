@@ -293,7 +293,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, 10, 0, 1)
 	Logo.Size = UDim2.new(0, 25, 0, 25)
-	Logo.Image = "rbxassetid://"..tostring(logo)
+	Logo.Image = "rbxassetid://82496531647577"..tostring(logo)
 
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
@@ -395,7 +395,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	ToggleImgUi.BackgroundTransparency = 1.000
 	ToggleImgUi.Position = UDim2.new(0.0454545468, 0, 0.125000313, 0)
 	ToggleImgUi.Size = UDim2.new(0, 35, 0, 35)
-	ToggleImgUi.Image = "rbxassetid://134095939534051"
+	ToggleImgUi.Image = "rbxassetid://82496531647577"
 	
 	Uitoggle.Name = "Uitoggle"
 	Uitoggle.Parent = ToggleFrameUi
@@ -404,7 +404,7 @@ function library:Window(text,text2,text3,logo,keybind)
 	Uitoggle.Position = UDim2.new(0.25757575, 0, 0, 0)
 	Uitoggle.Size = UDim2.new(0, 137, 0, 25)
 	Uitoggle.Font = Enum.Font.GothamSemibold
-	Uitoggle.Text = "Ui Toggle :"
+	Uitoggle.Text = "Razer Hub:"
 	Uitoggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 	Uitoggle.TextSize = 12.000
 	
@@ -481,7 +481,7 @@ ImageLabelfps.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabelfps.BackgroundTransparency = 1.000
 ImageLabelfps.Position = UDim2.new(0.113989636, 0, 0.204545856, 0)
 ImageLabelfps.Size = UDim2.new(0, 25, 0, 25)
-ImageLabelfps.Image = "rbxassetid://134095939534051"
+ImageLabelfps.Image = "rbxassetid://82496531647577"
 
 
 Framefps.MouseEnter:Connect(function()
@@ -1023,7 +1023,7 @@ end)
 			DropImage.Position = UDim2.new(0, 445, 0, 6)
 			DropImage.Rotation = -90
 			DropImage.Size = UDim2.new(0, 20, 0, 20)
-			DropImage.Image = "rbxassetid://6031090990"
+			DropImage.Image = "rbxassetid://82496531647577"
 			
 			DropButton.Name = "DropButton"
 			DropButton.Parent = Dropdown
